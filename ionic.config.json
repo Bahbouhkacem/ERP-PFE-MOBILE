@@ -1,0 +1,7 @@
+{
+  "name": "erpFinal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
