@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.erpbaha',
-  appName: 'erpFinal',
+  appName: 'Commerci Optim',
   webDir: 'www'
 };
 
