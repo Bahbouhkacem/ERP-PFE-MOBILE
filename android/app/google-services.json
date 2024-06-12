@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "323543910758",
+    "project_id": "erp1-26b63",
+    "storage_bucket": "erp1-26b63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323543910758:android:4693d76a75c1b3cc1ca0a7",
+        "android_client_info": {
+          "package_name": "com.erpbaha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbJzmm7QfF0z-wn0sPsSQ5CsoKpcrBpx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

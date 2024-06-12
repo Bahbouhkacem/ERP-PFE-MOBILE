@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private iab:InAppBrowser,
+
+) {}
+
+ionViewWillEnter() {
+  var options = "width=437,height=250,location=no,zoom=no,keyboardDisplayRequiresUserAction=no,toolbar=no,toolbarposition=top,closebuttoncaption=fermer,usewkwebview=yes";
+  let browser = this.iab.create("http://192.168.1.11/DEMO", "_blank",options);
+  browser.show()
+}
 
 }

@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package com.erpbaha;
 
 import com.getcapacitor.BridgeActivity;
 
