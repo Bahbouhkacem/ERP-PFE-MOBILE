@@ -30,6 +30,7 @@
     "@capacitor/keyboard": "6.0.0",
     "@capacitor/push-notifications": "^6.0.0",
     "@capacitor/status-bar": "6.0.0",
+    "@capgo/inappbrowser": "^6.0.19",
     "@ionic/angular": "^8.0.0",
     "in-app-browser": "^1.0.7",
     "ionicons": "^7.0.0",
