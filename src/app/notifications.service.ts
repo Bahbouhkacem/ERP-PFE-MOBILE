@@ -29,9 +29,9 @@ export class NotificationsService {
             console.log(token); 
             localStorage.setItem("token",token.value)
 
-            // this.db.database.ref(`users/`+localStorage.getItem("uid")).push({
-            //     token:token
-            // })
+            this.db.database.ref(`users/`+localStorage.getItem("uid")).push({
+                 token:token
+            })
         });
         PushNotifications.addListener('registrationError', (err)=> {
             console.log(err);

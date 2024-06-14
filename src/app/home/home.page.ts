@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,9 @@ import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
 })
 export class HomePage {
 
-  constructor(private iab:InAppBrowser,
+  constructor(
+    private iab:InAppBrowser,
+    private db:AngularFireDatabase,
 
 ) {}
 
